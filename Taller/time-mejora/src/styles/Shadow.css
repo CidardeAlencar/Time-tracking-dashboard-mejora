@@ -1,0 +1,38 @@
+.Card{
+ display: flex;
+}
+.Work{
+    background-color: var(--Light-redw);
+}
+.Play{
+    background-color: var(--Soft-blue);
+}
+.Study{
+    background-color: var(--Light-red);
+}
+.Exercise{
+    background-color: var(--Lime-green);
+}
+.Social{
+    background-color: var(--Violet);
+}
+.selfCare{
+    background-color: var(--Soft-orange);
+}
+.Shadow{
+    width: 80%;
+    padding: 0 20px 0 20px;
+    border-radius: 10px 10px 0 0;
+    background-color: var(--Light-redw); 
+    margin: 0 auto;
+    position:relative;
+    bottom: -35px;
+    z-index: -1;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+.Shadow img{
+    position: relative;
+    top: -10px;
+}

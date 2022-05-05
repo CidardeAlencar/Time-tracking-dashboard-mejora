@@ -1,0 +1,44 @@
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+:root{
+  /*primario*/
+  --Blue: hsl(246, 80%, 60%);
+
+  --Light-redw: hsl(15, 100%, 70%);/*(work)*/
+  --Soft-blue : hsl(195, 74%, 62%);/*(play)*/
+  --Light-red : hsl(348, 100%, 68%);/*(study)*/
+  --Lime-green : hsl(145, 58%, 55%);/*(exercise)*/
+  --Violet : hsl(264, 64%, 52%);/*(social)*/
+  --Soft-orange : hsl(43, 84%, 65%);/*(self care)*/
+  /*neutral*/
+  --Very-dark-blue: hsl(226, 43%, 10%);
+  --Dark-blue: hsl(235, 46%, 20%);
+  --Desaturated-blue: hsl(235, 45%, 61%);
+  --Pale-Blue: hsl(236, 100%, 87%);
+  
+  /*body*/
+  --name_and_stats_Font_size : 18px;
+}
+/*font*/
+html,body{
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+body{
+  background: var(--Very-dark-blue);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
