@@ -1,26 +1,30 @@
 import React from 'react'
 import {TypeRow} from './TypeRow'
-import work from'../assets/icon-work.svg'
+//import work from'../assets/icon-work.svg'
 import '../styles/Shadow.css'
-import TypeList from '../CardAPI/TypeRow'
+//import TypeList from '../CardAPI/TypeRow'
 
-function Shadow() {
+function Shadow(props) {
+  const theme='Shadow '+props.theme
   return (
     <div className='card'>
-    <div className='Shadow'>
-      <img src={work} alt='icono de trabajo'></img>
+    <div className={theme}>
+      <img src={props.img} alt='icono de trabajo'></img>
       
     </div>
     <div className='Body'>
       {
-        TypeList.map(
-          (card)=>
+       // TypeList.map(
+        //  (card)=>
           <TypeRow
-          Type={card.Type}
-          Houres={card.Houres}
-          hrsweek={card.hrsweek}
+          Type={props.Type}
+          Houres={props.Houres}
+          hrsweek={props.hrsweek}
+         // theme={props.theme}
+        //  Houres={card.Houres}
+        //  hrsweek={card.hrsweek}
           />
-        )
+      //  )
       }
   </div>
   </div>
