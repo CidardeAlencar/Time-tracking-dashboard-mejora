@@ -1,0 +1,39 @@
+.Background{
+    background-color: var(--Desaturated-blue);
+}
+
+.ShadowCard{
+    width: 80%;
+    padding: 0 20px 0px 20px;
+    border-radius: 10px;
+    background-color: var(--Desaturated-blue); 
+    margin: 0 auto;
+    position:relative;
+    bottom: -35px;
+    display: flex;
+    justify-content: flex-end;
+    height: 120px;
+}
+.report{
+    font-size: var(--name_and_stats_Font_size);
+    font-weight: 400;
+    color: var(--Pale-Blue);
+    margin-bottom: 5px;
+}
+.name{
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+}
+.ShadowCard img{
+    position: relative;
+    border-radius: 50%;
+    border:3px solid white;
+    margin: 23px auto;
+}
+.conteiner{
+    display: block;
+    justify-content: center;
+    margin: 15px auto;
+    margin-left: 0;
+}

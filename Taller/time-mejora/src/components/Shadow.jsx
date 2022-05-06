@@ -2,7 +2,7 @@ import React from 'react'
 import {TypeRow} from './TypeRow'
 //import work from'../assets/icon-work.svg'
 import '../styles/Shadow.css'
-//import TypeList from '../CardAPI/TypeRow'
+//  import '../CardAPI/ShadowList'
 
 function Shadow(props) {
   const theme='Shadow '+props.theme
